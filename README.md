@@ -5,8 +5,8 @@
 
 __Difficulty Levels solved__
  
- :green_circle: Easy: 0  
- :orange_circle: Medium: 2
+ :white_circle: Easy: 0  
+ :large_blue_circle: Medium: 2
  :red_circle: Hard: 0
  :black_circle: Very Hard: 0  
 
