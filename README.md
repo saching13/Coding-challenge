@@ -16,4 +16,6 @@ __Difficulty Levels solved__
 -->
 
 ## Algo Expert
-:white_circle: [Max Subste sum No adjacent](Algoexpert/max_Subset_Sum_No_Adjacent.cpp)   __TIP__ : Check for last two sums in the sum list
+:white_circle: [Max Subste sum No adjacent](Algoexpert/max_Subset_Sum_No_Adjacent.cpp)  
+ __TIP__ : Check for last two sums in the sum list
+  :large_blue_circle: [kandane's Algorithm](Algoexpert/kandane's_algorithm.cpp) Finding max sum of a sub array(only adjacent)
