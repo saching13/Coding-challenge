@@ -14,3 +14,6 @@ __Difficulty Levels solved__
  #### LeetCode
 * :white_circle: [5-longest-palindromic-substring.cpp](leetCode/5-longest-palindromic-substring.cpp)
 -->
+
+## Algo Expert
+:white_circle: [Max Subste sum No adjacent](Algoexpert/max_Subset_Sum_No_Adjacent.cpp)   __TIP__ : Check for last two sums in the sum list
