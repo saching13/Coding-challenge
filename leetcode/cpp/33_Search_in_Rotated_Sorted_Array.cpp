@@ -37,12 +37,12 @@ public:
         if (nums.size() == 0)
             return -1;
         int index = rotation_search(nums);
-            if (index == 0)
-                return binary_search(index,nums.size()-1,nums,target);
-            if (target >= nums[0]){
-                return binary_search(0,index-1,nums,target);
-            }
-            else
-                return binary_search(index,nums.size()-1,nums,target);
+        if (index == 0)
+            return binary_search(index,nums.size()-1,nums,target);
+        if (target >= nums[0]){
+            return binary_search(0,index-1,nums,target);
+        }
+        else
+            return binary_search(index,nums.size()-1,nums,target);
     }
 };

@@ -55,7 +55,6 @@ public:
             else if (p->val < q->val){
                 current_update->next = p;
                     p=p->next;
-                
             }
             else{
                 current_update->next = q;
