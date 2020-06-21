@@ -8,15 +8,15 @@ int maxSubsetSumNoAdjacent(vector<int> array) {
 	if (len == 0)
 		return 0;
 		
-for(int i=0; i < len; i++){
+	for(int i=0; i < len; i++){
 		if (i == 0) {
 			max_list.push_back(array[i]);
 			}
-		else if (i ==1 ){
-			if(array[i]>array[i-1]) max_list.push_back(array[i]);
+		else if (i == 1 ){
+			if(array[i] > array[i-1]) max_list.push_back(array[i]);
 			else max_list.push_back(array[i-1]);
 			}
-	 else{
+	 	else{
 		 	max_list.push_back(std::max(max_list[i-1],max_list[i-2]+array[i]));
 		}	
 	}
